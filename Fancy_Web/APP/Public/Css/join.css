@@ -1,0 +1,85 @@
+#d1{
+	width: 29em;
+	height: 34em;
+	margin-top:5em;
+	margin-left: 35em;	
+}
+#fc{
+	margin-left: 12em;
+	margin-top: 1em;
+	font-size: 40px;
+}
+.len250{
+
+	height: 27px;
+}
+#name{
+
+	height: 27px;
+	width:270px;
+}
+#pwd{
+	height: 27px;
+	width: 270px;
+}
+#a1{
+
+	text-decoration: none;
+}
+#btn1{
+	
+	width: 120px;
+}
+#btn2{
+	margin-left: 20px;
+	
+	width: 120px;
+}
+#id3{
+
+	float: left;
+}
+
+#d3{
+
+	float: left;
+}
+#d5{
+
+
+	width: 9em;
+	height: 23em;
+	margin-top:5em;
+	margin-left: 20em;
+
+	
+}
+#code{
+	height: 27px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 13px;
+}
+
+#a2{
+	margin-left: 10px;
+	margin-bottom: 40px;
+
+
+}
+#d0{
+
+}
+#d4{
+	padding: 0px;
+	
+}
+#d7{
+	background-color:;
+	
+
+}
+#n1{
+	padding:-left:0;
+	
+}

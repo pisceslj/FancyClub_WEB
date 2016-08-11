@@ -1,1 +1,0 @@
-<?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('getatuser');?><?php include template('common/header'); ?><?php echo $result;?><?php include template('common/footer'); ?>

@@ -1,30 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/ >
-	<title>Fancyclub</title>
-	<meta name="description" content="" />
-  <meta name="keywords" content="" />
+<?php
+// 应用入口文件
 
-<body>
-<div class="main">
-    <!-- top bar -->
-    <?php require ('Home/topbar.php');?>
-<div class="zhuangshi"></div>	
+// 检测PHP环境
+if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
-    <!-- show_bar -->
-    <?php require ('Home/show_bar.php');?>
-    
-    <!-- learn  -->
-    <?php require ('Home/learn.php');?>
+// 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
+define('APP_DEBUG',True);
 
-    <!--  about -->
-    <?php require ('Home/about.php'); ?>
+//定义应用目录名
+define('APP_NAME','APP');
+// 定义应用目录
+define('APP_PATH','./APP/');
 
-    <!-- footer -->
-<footer>
-	<p>&copy; 2015 All rights reserved by Fancyclub</p>
-</footer>
-</body>
-</html>
+// 引入ThinkPHP入口文件
+require './ThinkPHP/ThinkPHP.php';
+
+?>
